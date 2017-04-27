@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>My page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+        <!-- Using google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lobster" rel="stylesheet"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <style>
+            h1 {
+                font-family: 'Lobster', cursive;
+            }
+            h2 {
+                font-family: 'Fjalla One', sans-serif;
+            }
+        </style>
+    </head>
+   <body>
+       <div class="jumbotron text-center">
+           <img src="images/simpson.png" class="img-circle" alt="my pic" width ="180" height="200">
+            <h1>Joe Wang</h1>
+       </div>
+    <div class="container">
+         <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Education</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#bsc">Bachelor's Degree</a></li>
+                      <li><a href="#msc">Master's Degree</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">My Skills</a>
+                    <ul class = "dropdown-menu">
+                        <li><a href="#pros">Programming Skills</a></li>
+                        <li><a href="#coms">Computer Skills</a></li>
+                        
+                    </ul>
+                </li>
+                 <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Experiences</a>
+                    <ul class = "dropdown-menu">
+                        <li><a href="#work">Work Experiences</a></li>
+                        <li><a href="#proj">Projects</a></li>
+                    </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <div class="row">
+            <div class ="col-md-6">
+                <h3>About me</h3>
+                <p id="mypage"></p>
+            </div>
+            <div class="col-md-6">
+                <a href="https://en.wikipedia.org/wiki/Turku">
+                <img src="images/turku.jpg" class ="img-rounded" alt="turku" width ="555" height="250">
+                </a>
+            </div>
+        </div>
+            
+        </div>
+    
+    <div class="container">
+        <div class="page-header">
+            <h3>Education</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4 id="bsc">Bachelor's degree</h4>
+                <p id='bachelor.university'></p>
+                <p id='bachelor.Location'></p>
+                <p id='bachelor.Degree'></p>
+                <p id='bachelor.Date'></p>
+               
+            </div>
+            <div class='col-md-6'>
+                <h4 id ="msc">Master's degree</h4>
+                <p id='master.university'></p>
+                <p id='master.Location'></p>
+                <p id='master.Degree'></p>
+                <p id='master.Date'></p>
+            </div>
+        </div>
+    </div>
+       
+    <div class="container">
+        <div class="page-header">
+            <h3>Skills</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <h4 id="pros">Programming Skills</h4>
+                    <p id ="pro"></p>
+            </div>
+            <div class="col-md-6">
+                <h4 id ="coms">Computer Skills</h4>
+                <p id ="Data">Database: </p>
+                <p id ="Net">Network skills: </p>
+                <p id ="Soft">Software: </p>
+                <p id ="Crypt">Cryptography: </p>
+                <p id ="Oper">Operating systems: </p>
+            </div>          
+        </div>
+       
+    </div>
+       
+    <div class="container">
+        <div class="page-header">
+            <h3>Experiences</h3>
+        </div>
+        <h4 id ="work">Work experiences</h4>
+             <p id="workep"></p>
+        <h4 id ="proj">Projects</h4>
+         </div>
+        <script src="js/myjavascript.js"></script>
+</body>
+</html>
